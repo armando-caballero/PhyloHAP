@@ -9,7 +9,9 @@ PhyloHAPsym.c : Littorina model for multiple origin in sympatry
 PhyloHAPallo.c : Littorina model for single origin in allopatry
 PhyloDis.c : Programme to handle with distances and trees
 genlib.c : Genetic routines
-libhdr : Declaration of external variables for genlib.c 
+libhdr : Declaration of external variables for genlib.c
+OTHER NECESSARY PROGRAMMES: dnadist, gendist and fitch from PHYLIP package
+OTHER NECESSARY FILE: seedfile (file with initial seed for random number generator)
 
 COMPILATION:
 
