@@ -94,7 +94,21 @@ EOF
 
 mv outfile distances
 cat distances >> DISTANCES_FREQ_$g
+
+# rm outtree
+
+# ./fitch <<EOF
+# distances
+# D
+# p
+# 0
+# -
+# y
+# EOF
+
 rm distances
+# mv outfile tree_freq$a$g
+
 
 g=$[g + TGEN]
 
@@ -129,7 +143,20 @@ EOF
 
 mv outfile distances
 cat distances >> DISTANCES_HAPLO_$g
+
+# rm outtree
+
+# ./fitch <<EOF
+# distances
+# D
+# p
+# 0
+# -
+# y
+# EOF
+
 rm distances
+# mv outfile tree_hap$a$g
 
 c=$[c + 5]
 d=$[d + 5]
