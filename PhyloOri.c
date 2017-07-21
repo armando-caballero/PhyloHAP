@@ -1,4 +1,4 @@
-/* PhyloDis.c */
+/* PhyloOri.c */
 
 # include "libhdr"
 # include <string.h>
